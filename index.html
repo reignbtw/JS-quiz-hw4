@@ -16,32 +16,32 @@
     </header>
 
     <main>
-        <div id=start-card class="card">
+        <div id="start-card" class="card">
             <h2 id=title>JavaScript Quiz Challenge</h2>
-            <p>Try to answer the following JavaScript questions within the time limit. <br><br> Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
-            <button id=start-button class="button">Start Quiz</button>
+            <p>Answer the questions within the time limit. <br><br> Remember... Any incorrect answer will lower your time by 5 seconds!!</p>
+            <button id="start-button" class="button">Start Quiz</button>
         </div>
 
-        <div hidden id=question-card class="card">
+        <div hidden id="question-card" class="card">
 
-            <h2 id=question-text></h2>
+            <h2 id="question-text"></h2>
 
-            <div id=quiz-options>
-                <button id=option0 class="button option-button"></button>
-                <button id=option1 class="button option-button"></button>
-                <button id=option2 class="button option-button"></button>
-                <button id=option3 class="button option-button"></button>
+            <div id="quiz-options">
+                <button id="option0" class="button option-button"></button>
+                <button id="option1" class="button option-button"></button>
+                <button id="option2" class="button option-button"></button>
+                <button id="option3" class="button option-button"></button>
             </div>
 
-            <div id=result-div>
+            <div id="result-div">
                 <hr>
-                <p id=result-text></p>
+                <p id="result-text"></p>
             </div>
 
         </div>
 
-        <div hidden id=score-card class="card">
-            <h2>All done!</h2>
+        <div hidden id="score-card" class="card">
+            <h2>Quiz Complete!</h2>
             <p>Your final score is <span id=score></span>.</p>
             <form class="inline-form" id="submission-form">
                   <label for="initials">Enter initials: </label>
@@ -50,7 +50,7 @@
             </form>
         </div>
 
-        <div hidden id=leaderboard-card class="card">
+        <div hidden id="leaderboard-card" class="card">
             <h2>Highscores</h2>
             <ol id="highscore-list">
             </ol>
