@@ -109,8 +109,8 @@ function checkAnswer(eventObject) {
     } else {
       resultText.textContent = "Incorrect!";
       setTimeout(hideResultText, 1000);
-      if (time >= 10) {
-        time = time - 10;
+      if (time >= 5) {
+        time = time - 5;
         displayTime();
       } else {
         time = 0;
@@ -146,7 +146,7 @@ function storeScore(event) {
     event.preventDefault();
   
     if (!inputElement.value) {
-      alert("Please enter your initials before pressing submit!");
+      alert("Don't forget to enter your initials before hitting the submit button!");
       return;
     }
   
